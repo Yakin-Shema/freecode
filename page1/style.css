@@ -48,17 +48,76 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 footer{
     background-color: blue;
     border-radius: 5px;
     width: 5%;
+    cursor: pointer;
     padding: 5px;
     margin-left: 1050px;
     text-align: center;
 }
 footer:hover{
     background-color: rgb(1, 1, 175);
+}
+@media screen and (max-width: 700px){
+    html{
+        width: 500px;
+    }
+    .douze{
+        font-size: 1.5rem;
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding: 3px;
+    }
+    .deux{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .un{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    .onze{
+        font-style: italic;
+        font-size: 1.5rem;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    span{
+        background-color: #dddddd;
+        padding: 3px;
+        border-radius: 1px;
+    }
+    img{
+        margin-left: 50px;
+        width: 400px;
+        margin-right: 0px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    footer{
+        background-color: blue;
+        border-radius: 5px;
+        width: 15%;
+        padding: 5px;
+        margin-left: 375px;
+        text-align: center;
+    }
 }

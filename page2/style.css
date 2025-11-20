@@ -4,7 +4,7 @@ html{
     font-style: normal;
 }
 .deux{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     margin-left: 200px;
     margin-top: 0px;
@@ -16,7 +16,7 @@ html{
     padding-top: 0px;
 }
 .un{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     margin-left: 200px;
     margin-top: 0px;
@@ -50,11 +50,11 @@ th{
 }
 .onze{
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-left: 200px;
 }
 .douze{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-left: 200px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -91,7 +91,7 @@ input[type="text"]{
     width: 6%;
     border-radius: 1px;
     color: black;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 5px;
@@ -105,7 +105,7 @@ input[type="text"]{
     width: 25%;
     border-radius: 1px;
     color: black;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     padding: 1px;
     font-weight: 600;
     text-align: center;
@@ -116,7 +116,7 @@ input[type="text"]{
 .rax{
     width: 21%;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 0px;
@@ -128,9 +128,9 @@ input[type="text"]{
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     width: 10%;
-    border-radius: 1px;
+    border-radius: 2px;
     color: black;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     text-align: center;
     font-weight: 700;
     margin-bottom: 0px;
@@ -211,6 +211,7 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
+  margin-right: 0px;
 }
 
 #showContentBtn:hover {
@@ -229,15 +230,13 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 footer{
   background-color: blue;
   width: 5%;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 5px;
+  cursor: pointer;
   margin-left: 1200px;
 }
 footer:hover{
@@ -246,4 +245,75 @@ footer:hover{
 header{
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 700px) {
+  html{
+    width: 500px;
+  }
+  .hanm{
+    margin-left: 100px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    margin-top: 5px;
+  }
+  .deux{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  .un{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .shem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    gap: 0.5px;
+  }
+  .onze{
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .douze{
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  footer{
+  background-color: blue;
+  width: 15%;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 350px;
+  margin-right: 0px;
+  }
+  .rax{
+    width: 21%;
+  }
+  .sax{
+    width: 25%;
+  }
+  .tax{
+    width: 20%;
+  }
+  .cax{
+    width: 30%;
+  }
+  .fax{
+    width: 20%;
+  }
 }
