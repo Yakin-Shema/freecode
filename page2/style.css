@@ -248,10 +248,10 @@ header{
 }
 @media screen and (max-width: 700px) {
   html{
-    width: 500px;
+    width: 600px;
   }
   .hanm{
-    margin-left: 100px;
+    margin-left: 5%;
     padding-left: 35px;
     padding-bottom: 25px;
     padding-right: 25px;
@@ -284,12 +284,12 @@ header{
     gap: 0.5px;
   }
   .onze{
-    margin-left: 30px;
-    margin-right: 0px;
+    margin-left: 3%;
+    margin-right: 0%;
   }
   .douze{
-    margin-left: 30px;
-    margin-right: 0px;
+    margin-left: 3%;
+    margin-right: 0%;
   }
   footer{
   background-color: blue;
