@@ -6,22 +6,22 @@ html{
 .deux{
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    padding-top: 0px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 1%;
+    padding-right: 0%;
+    padding-top: 0%;
 }
 .un{
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-right: 0px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-right: 0%;
 }
 h1{
     text-align: center;
@@ -51,15 +51,15 @@ th{
 .onze{
     font-style: italic;
     font-size: 1.5rem;
-    margin-left: 200px;
+    margin-left: 2%;
 }
 .douze{
   font-size: 1.5rem;
-  margin-left: 200px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  padding: 3px;
+  margin-left: 2%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  padding: 0.5%;
 }
 form{
   width: 85%;
@@ -79,13 +79,13 @@ form{
   margin-left: 20px;
   opacity: 40%;
 }
-input[type="text"]{
+.imput[type="text"]{
   width: 95%;
   margin-top: 5px;
   border: 1px solid #ccc;
   font-size: 15px;
 }
-.fax{
+.clear{
     border: 2px solid rgb(236, 173, 0);
     background-color: rgb(236, 173, 0);
     width: 6%;
@@ -99,7 +99,7 @@ input[type="text"]{
     margin-left: 5px;
     padding: 1px;
 }
-.cax{
+.calculate{
     border: 2px solid rgb(236, 173, 0);
     background-color: rgb(236, 173, 0);
     width: 25%;
@@ -113,7 +113,7 @@ input[type="text"]{
     margin-top: 5px;
     margin-left: 5px;
 }
-.rax{
+.addFood{
     width: 21%;
     color: white;
     font-size: 0.8rem;
@@ -124,8 +124,8 @@ input[type="text"]{
     margin-left: 5px;
     padding: 1px;
 }
-.sax{
-    border: 2px solid rgb(255, 255, 255);
+.breakfast{
+    border: none;
     background-color: rgb(255, 255, 255);
     width: 10%;
     border-radius: 2px;
@@ -133,12 +133,12 @@ input[type="text"]{
     font-size: 0.7rem;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-bottom: 0%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
     padding: 1px;
 }
-.tax{
+.addEntry{
     border: 1px solid rgb(236, 173, 0);
     background-color: rgb(236, 173, 0);
     width: 9%;
@@ -163,60 +163,26 @@ input[type="text"]{
     color:white;
     background-color: #1d1c36;
     width: 50%;
-    margin-left: 250px;
+    margin-left: 9%;
     padding-left: 70px;
     padding-bottom: 50px;
     padding-right: 50px;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 span{
     background-color: #dddddd;
     padding: 3px;
     border-radius: 2px;
 }
-.curtain {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #1d1c36;
-  z-index: 9999;
-  animation: curtainOpen 2s ease-in-out;
-}
 
-@keyframes curtainOpen {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
 body {
   font-family: Arial, sans-serif;
   padding: 2rem;
 }
 
-.hidden {
-  display: none;
-}
 
-#showContentBtn {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  margin-right: 0px;
-}
 
-#showContentBtn:hover {
-  background-color: #0056b3;
-}
 .shem{
     display: flex;
     flex-direction: row;
@@ -235,85 +201,74 @@ footer{
   width: 5%;
   text-align: center;
   border-radius: 5px;
-  padding: 5px;
+  padding: 0.9%;
   cursor: pointer;
-  margin-left: 1200px;
+  margin-left: 70%;
 }
 footer:hover{
   background-color: rgb(8, 30, 155);
 }
-header{
-    display: flex;
-    justify-content: center;
+
+label{
+  font-weight: 700;
+  font-size: 1rem;
 }
-@media screen and (max-width: 700px) {
-  html{
-    width: 600px;
-  }
-  .hanm{
-    margin-left: 5%;
-    padding-left: 35px;
-    padding-bottom: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    margin-top: 5px;
-  }
-  .deux{
-    margin-left: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 3px;
-    padding-right: 0px;
-    padding-top: 0px;
-  }
-  .un{
-    margin-left: 30px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-right: 0px;
+  
+ /* En dessous de 1200 px */
+@media screen and (max-width: 1200px) {
+  body {
+    width: 60%;
   }
   .shem{
     display: flex;
     flex-direction: column;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    gap: 0.5px;
-  }
-  .onze{
-    margin-left: 3%;
-    margin-right: 0%;
-  }
-  .douze{
-    margin-left: 3%;
-    margin-right: 0%;
   }
   footer{
-  background-color: blue;
-  width: 15%;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 5px;
-  margin-left: 350px;
-  margin-right: 0px;
+    width: 10%;
   }
-  .rax{
-    width: 21%;
+  .calculate{
+    width: 40%;
   }
-  .sax{
-    width: 25%;
+  .clear{
+    width: 12%;
   }
-  .tax{
-    width: 20%;
-  }
-  .cax{
+  .addFood{
     width: 30%;
   }
-  .fax{
+  .breakfast{
     width: 20%;
+  }
+  .addEntry{
+    width: 18%;
+  }
+}
+
+
+/* En dessous de 800 px */
+@media screen and (max-width: 800px) {
+  body {
+    width: 90%;
+  }
+  .shem{
+    display: flex;
+    flex-direction: column;
+  }
+  footer{
+    width: 10%;
+  }
+  .calculate{
+    width: 40%;
+  }
+  .clear{
+    width: 12%;
+  }
+  .addFood{
+    width: 30%;
+  }
+  .breakfast{
+    width: 20%;
+  }
+  .addEntry{
+    width: 18%;
   }
 }

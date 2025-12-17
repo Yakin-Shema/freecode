@@ -1,15 +1,32 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("showContentBtn");
-  const content = document.getElementById("hiddenContent");
 
-  button.addEventListener("click", () => {
-    content.classList.remove("hidden");
-    button.style.display = "none"; // Optionnel : cacher le bouton après le clic
-  });
-});
-window.addEventListener('load', () => {
-    const curtain = document.getElementById('curtain');
-    curtain.addEventListener('animationend', () => {
-      curtain.style.display = 'none';
-    });
-  });
+let inputText = document.getElementById("nom")
+let rideau = document.getElementById("rideau")
+
+function messagePage(){
+  let message = "Bienvenu à toi "
+  let salutation = message + inputText.value
+  return salutation
+}
+
+
+function afficherPage(){
+  rideau.classList.add("active")
+}
+
+function afficherText(){
+  let body = document.querySelector("body")
+  let header = `
+    <header>
+      <div> ${messagePage()}</div>
+    </header>
+  `;
+  body.innerHTML = header
+}
+
+let bouton1 = document.getElementById("bouton1")
+
+bouton1.addEventListener("click", function() {
+  afficherText()
+  afficherPage()
+  console.log("T'inquiètes pas, ça fonctionne "+ inputText.value)
+})

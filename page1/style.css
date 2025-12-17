@@ -5,36 +5,36 @@ html{
 }
 .douze{
     font-size: 1.5em;
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding: 3px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 0.3%;
 }
 .deux{
     font-size: 2em;
     font-weight: bold;
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    padding-top: 0px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 1%;
+    padding-right: 0%;
+    padding-top: 0%;
 }
 .un{
     font-size: 2em;
     font-weight: bold;
-    margin-left: 200px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-right: 0px;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+    margin-right: 0%;
 }
 .onze{
     font-style: italic;
     font-size: 1.5em;
-    margin-left: 200px;
+    margin-left: 2%;
 }
 span{
     background-color: #dddddd;
@@ -42,21 +42,92 @@ span{
     border-radius: 0.2%;
 }
 img{
-    margin-left: 20%;
+  margin-left: 5%;
+}
+.imput[type="text"]{
+  width: 95%;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
 }
 a {
   color: white;
   text-decoration: none;
 }
+#bouton1{
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background-color: #007bff;
+
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#bouton1:hover {
+  background-color: #0056b3;
+}
 footer{
-    background-color: blue;
-    border-radius: 5px;
-    width: 5%;
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 1050px;
-    text-align: center;
+  background-color: blue;
+  width: 5%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.9%;
+  cursor: pointer;
+  margin-left: 70%;
 }
 footer:hover{
     background-color: rgb(1, 1, 175);
+}
+#backgroundRideau{
+  display: none;
+}
+header{
+  font-style: italic;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dddddd;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #007bff;
+}
+label{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+#nom{
+  font-weight: 700;
+  color: blue;
+  padding: 0.3%;
+  width: 30%;
+  font-size: 1rem;
+}
+@media screen and (max-width: 1200px) {
+  #conteneur {
+    width: 60%;
+  }
+  img{
+    width: 90%;
+  }
+  footer{
+    width: 10%;
+  }
+}
+
+
+/* En dessous de 800 px */
+@media screen and (max-width: 800px) {
+  body {
+    width: 90%;
+    padding: 10px;
+  }
+  footer{
+    width: 10%;
+  }
 }
