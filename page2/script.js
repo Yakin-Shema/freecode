@@ -1,32 +1,34 @@
 
 let inputText = document.getElementById("nom")
-let rideau = document.getElementById("rideau")
+
 
 function messagePage(){
-  let message = "Bienvenu à toi "
+  let message = "It's a second page "
   let salutation = message + inputText.value
   return salutation
 }
 
-
-function afficherPage(){
-  rideau.classList.add("active")
-}
-
 function afficherText(){
-  let body = document.querySelector("body")
+  let body = document.querySelector("header")
   let header = `
-    <header>
       <div> ${messagePage()}</div>
-    </header>
   `;
   body.innerHTML = header
 }
-
+function afficherPage() {
+  let rideau = document.getElementById("backgroundRideau")
+  rideau.style.display = "block"
+}
+ 
 let bouton1 = document.getElementById("bouton1")
-
-bouton1.addEventListener("click", function() {
-  afficherText()
-  afficherPage()
-  console.log("T'inquiètes pas, ça fonctionne "+ inputText.value)
+bouton1.addEventListener("click", () => {
+  if(inputText.value === ""){
+    window.alert("Veullez entrez votre nom")
+    console.log("le champ est vide")
+  }else{
+    afficherText()
+    afficherPage()
+    cacherIntro()
+    console.log("c'est fait "+ inputText.value)
+  }
 })

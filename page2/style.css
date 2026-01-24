@@ -254,6 +254,7 @@ label{
     flex-direction: column;
   }
   footer{
+    font-size: 0.9em;
     width: 10%;
   }
   .calculate{
@@ -270,5 +271,17 @@ label{
   }
   .addEntry{
     width: 18%;
+  }
+  .un{
+    font-size: 1.5em;
+  }
+  .deux{
+    font-size: 1.5em;
+  }
+  .onze{
+    font-size: 1em;
+  }
+  .douze{
+    font-size: 1em;
   }
 }

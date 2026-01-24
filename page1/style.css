@@ -86,11 +86,9 @@ footer:hover{
   display: none;
 }
 header{
-  font-style: italic;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #dddddd;
   margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 800;
@@ -123,11 +121,24 @@ label{
 
 /* En dessous de 800 px */
 @media screen and (max-width: 800px) {
+  .onze{
+    font-size: 1em;
+  }
+  .douze{
+    font-size: 1em;
+  }
+  .deux{
+    font-size: 1.5em;
+  }
+  .un{
+    font-size: 1.5em;
+  }
   body {
     width: 90%;
     padding: 10px;
   }
   footer{
-    width: 10%;
+    font-size: 0.9em;
+    width: 15%;
   }
 }

@@ -1,10 +1,9 @@
 
 let inputText = document.getElementById("nom")
 
-
 function messagePage(){
-  let message = "Bienvenu à toi "
-  let salutation = message + inputText.value
+  let message = "Welcome "
+  let salutation = message + inputText.value + " to the first page"
   return salutation
 }
 
